@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHUSED | Chuyên đồ điện tử cũ</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    <!-- Navbar (Dark Theme) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-microchip text-primary me-2"></i>TECH<span class="text-primary">USED</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-home me-1"></i> Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-mobile-alt me-1"></i> Điện thoại
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">iPhone</a></li>
+                            <li><a class="dropdown-item" href="#">Samsung</a></li>
+                            <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-laptop me-1"></i> Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-headphones me-1"></i> Phụ kiện</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-light me-2"><i class="fas fa-search"></i></a>
+                    <a href="#" class="btn btn-outline-light me-2"><i class="fas fa-user"></i></a>
+                    <a href="#" class="btn btn-primary"><i class="fas fa-plus-circle"></i> Đăng bán</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Search + Stats) -->
+    <section class="hero-section py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold mb-4">MUA BÁN <span class="text-primary">ĐIỆN TỬ CŨ</span> UY TÍN</h1>
+            <p class="lead mb-5">Hơn 10.000 sản phẩm đã được kiểm định chất lượng</p>
+            
+            <!-- Search Bar -->
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="input-group shadow-lg">
+                        <input type="text" class="form-control form-control-lg" placeholder="Tìm iPhone 13, MacBook Pro M1, AirPods 2...">
+                        <button class="btn btn-primary" type="button">
+                            <i class="fas fa-search me-2"></i> Tìm kiếm
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="row mt-5 g-4">
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <h3 class="text-primary fw-bold">5,000+</h3>
+                        <p>Điện thoại</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <h3 class="text-primary fw-bold">2,500+</h3>
+                        <p>Laptop</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <h3 class="text-primary fw-bold">98%</h3>
+                        <p>Hài lòng</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <h3 class="text-primary fw-bold">7 ngày</h3>
+                        <p>Đổi trả</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products (Latest) -->
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold"><i class="fas fa-bolt text-primary me-2"></i> SẢN PHẨM MỚI NHẤT</h2>
+                <a href="#" class="btn btn-sm btn-outline-dark">Xem tất cả <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-3">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <div class="badge bg-danger position-absolute m-2">Giảm 15%</div>
+                        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="card-img-top" alt="iPhone 12">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 12 64GB</h5>
+                            <div class="mb-2">
+                                <span class="text-danger fw-bold">12.500.000₫</span>
+                                <span class="text-decoration-line-through text-muted ms-2">14.700.000₫</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="rating small text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="text-muted ms-1">(42)</span>
+                                </div>
+                                <span class="text-success small"><i class="fas fa-check-circle"></i> Còn bảo hành</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary w-100"><i class="fas fa-shopping-cart me-1"></i> Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Thêm 3 sản phẩm khác -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5"><i class="fas fa-layer-group text-primary me-2"></i>DANH MỤC NỔI BẬT</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="category-card bg-dark text-white rounded-3 overflow-hidden position-relative">
+                        <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="img-fluid" alt="Smartphones">
+                        <div class="category-overlay p-4">
+                            <h3>Điện Thoại</h3>
+                            <p class="mb-3">iPhone, Samsung, Xiaomi...</p>
+                            <a href="#" class="btn btn-outline-light">Xem ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Thêm 2 danh mục khác -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5">TẠI SAO CHỌN <span class="text-primary">TECHUSED?</span></h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4 rounded-3 bg-white h-100">
+                        <div class="icon-circle bg-primary text-white mx-auto mb-4">
+                            <i class="fas fa-check-double fa-2x"></i>
+                        </div>
+                        <h5>Kiểm định chất lượng</h5>
+                        <p class="text-muted">Mỗi sản phẩm đều được kiểm tra IMEI, tình trạng hoạt động trước khi bán.</p>
+                    </div>
+                </div>
+                <!-- Thêm 2 lý do khác -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-4">TECH<span class="text-primary">USED</span></h5>
+                    <p><i class="fas fa-map-marker-alt text-primary me-2"></i> 123 Đường ABC, TP.HCM</p>
+                    <p><i class="fas fa-phone text-primary me-2"></i> 0901.234.567</p>
+                </div>
+                <!-- Thêm các cột footer khác -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
